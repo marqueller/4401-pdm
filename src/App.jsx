@@ -9,7 +9,7 @@ function App() {
     <>
     <Header/>
       <h1>OLÁ MUNDO!!!</h1>
-      <p>olá Mundão! Estou aprendendo React JS!</p>
+      <p>ola professor !</p>
       <Footer/>     
     </>
   )
