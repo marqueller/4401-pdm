@@ -5,8 +5,9 @@ function Header() {
         <header className={styles.header}>
             <span>CedupFlix</span>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Assistir</a>
+                <a href="/">Home</a>
+                <a href="/assistir">Assistir</a>
+                <a href="/acesso">Login</a>
             </nav>
         </header>
     )
