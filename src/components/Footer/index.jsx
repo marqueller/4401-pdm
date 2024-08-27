@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 function Footer() {
     return (
         <footer className={styles.footer}>
-            <h2>CedupFlix &copy; Desenvolvido por "Lucas" 2024</h2>
+            <h2>CedupFlix &copy; Desenvolvido por "João Gabriel" 2024</h2>
         </footer>
     );
 
