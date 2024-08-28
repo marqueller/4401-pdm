@@ -1,31 +1,51 @@
 
-JavaScript é uma linguagem de programação amplamente utilizada para o desenvolvimento de aplicações web. Originalmente criada para adicionar interatividade a páginas HTML, ela evoluiu para ser usada tanto no lado do cliente quanto no lado do servidor (com Node.js). JavaScript é uma linguagem interpretada, de tipagem dinâmica e é suportada pela maioria dos navegadores modernos.
 
-TypeScript é uma linguagem de programação que se baseia no JavaScript, adicionando tipagem estática e outras funcionalidades avançadas. Desenvolvida pela Microsoft, o TypeScript é um superconjunto de JavaScript, o que significa que todo código JavaScript válido também é válido em TypeScript. A principal vantagem do TypeScript é a detecção de erros em tempo de desenvolvimento, o que ajuda a criar código mais robusto e menos propenso a erros.
+JavaScript
 
-Principais diferenças:
+O que é?
+JavaScript é uma linguagem de programação de alto nível, usada principalmente para criar scripts em páginas web e tornar as interações do usuário mais dinâmicas. Ele é uma das principais tecnologias da web, junto com HTML e CSS.
 
-Tipagem: TypeScript adiciona tipagem estática, permitindo que desenvolvedores definam os tipos de variáveis, funções e parâmetros.
-Compatibilidade: O código TypeScript é compilado para JavaScript, o que garante compatibilidade com todos os ambientes que suportam JavaScript.
-Ferramentas de Desenvolvimento: TypeScript oferece melhor suporte a IDEs, com autocompletar, navegação de código e detecção de erros.
+Características:
+- Dinâmica e interpretada.
+- Suporte a programação orientada a objetos, funcional e imperativa.
+- Fortemente integrado com o DOM (Document Object Model) para manipulação de elementos HTML.
 
-function greet(name: string): string {
-    if (typeof name !== "string" || name.trim() === "") {
-        return "Entrada inválida, por favor forneça um nome como string.";
-    }
+Código Simples em JavaScript
 
-    const greetingMessage: string = "Olá, " + name + "! Bem-vindo à nossa aplicação.";
-    
-    const currentTime: number = new Date().getHours();
-    let timeOfDay: string;
-
-    if (currentTime < 12) {
-        timeOfDay = "manhã";
-    } else if (currentTime < 18) {
-        timeOfDay = "tarde";
-    } else {
-        timeOfDay = "noite";
-    }
-
-    return greetingMessage + " Boa " + timeOfDay + "!";
+function quadradoDosNumeros(numeros) {
+    return numeros.map(numero => numero * numero);
 }
+
+const numeros = [1, 2, 3, 4, 5];
+const resultados = quadradoDosNumeros(numeros);
+
+console.log("Números:", numeros);
+console.log("Quadrados:", resultados);
+
+TypeScript
+
+O que é? 
+TypeScript é um superconjunto de JavaScript desenvolvido pela Microsoft. Adiciona tipagem estática e outros recursos que ajudam a detectar erros durante o desenvolvimento e melhorar a manutenibilidade do código.
+
+Características:
+- Tipagem estática opcional.
+- Compila para JavaScript, o que significa que é compatível com qualquer ambiente que suporte JavaScript.
+- Suporte para recursos avançados, como interfaces e classes.
+
+Código Simples em TypeScript:
+
+function quadradoDosNumeros(numeros: number[]): number[] {
+    return numeros.map(numero => numero * numero);
+}
+
+const numeros: number[] = [1, 2, 3, 4, 5];
+const resultados: number[] = quadradoDosNumeros(numeros);
+
+console.log("Números:", numeros);
+console.log("Quadrados:", resultados);
+
+
+Diferenças Principais:
+
+- **TypeScript** adiciona tipos ao JavaScript, o que pode ajudar a evitar certos tipos de erros e facilitar a refatoração do código.
+- **JavaScript** é interpretado diretamente pelos navegadores e ambientes de execução, enquanto **TypeScript** precisa ser compilado para JavaScript.
