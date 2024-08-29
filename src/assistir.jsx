@@ -6,8 +6,8 @@ function Assistir() {
     return (
         <div>
             <Header />
-            <h1>ASSISTA</h1>
-            <p>Aqui você pode assistir aos seus vídeos favoritos de Luciano Eduardo e especialmente Black Roses Dub</p>
+            <h1>Rumo ao Game o Começo, Fim ou um Recomeço</h1>
+            <p>Venha conosco em nossas grandes gameplays de entrega</p>
             <Footer />
         </div>
     );

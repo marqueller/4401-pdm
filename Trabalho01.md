@@ -1,23 +1,17 @@
-Requisito Funcionais:
+Funcionam:
 
-- [] Deve conter vídeos de aulas práticas dos alunos para os trabalhos envolvendo os 3 setores;
-- [] Deve conter imagens de aulas práticas dos alunos para os trabalhos envolvendo os 3 setores;
-- [] Deve conter como fazer cadastro; 
-- [] O cadastro deve conter senha;
-- [] Deve ser possivel manter login;
-- [] O usuario deve conter login da conta do Youtube;
+Intuitividade: Um software intuitivo é fácil de aprender e usar. Os usuários não devem precisar de um extenso manual para compreender como usá-lo.
+Confiabilidade: Os usuários esperam que o software funcione consistentemente sem falhas ou erros frequentes.
+Eficiência: O software deve ser rápido e ágil, executando as tarefas de forma eficiente sem desperdiçar recursos do sistema.
+Segurança A segurança dos dados é crucial. Os usuários devem confiar que suas informações estão protegidas contra acesso não autorizado ou violações de privacidade.
+Flexibilidade: Um software flexível pode ser adaptado às necessidades específicas do usuário e pode ser personalizado conforme necessário.
+Compatibilidade: Deve funcionar em uma variedade de dispositivos e sistemas operacionais, para que os usuários não sejam limitados pela plataforma que estão usando.
+Não Funcionam:
 
-Requisito NÃO Funcionais:
-
-- [] O site de conter registro com banco de dados para acessos realizados com Time Stamp;
-- [] O site de deve ser compativel com versão mobile;
-- [] O site deve ser compativel com as versões mais recentes de sistemas operacionais;
-- [] O site deve ser hospedado em um servidor gratuito com as regras do domínio;
-- [] O site deve ter um design responsivel tanto ao PC para o mobile;
-- [] O site deve conseguir hospedar uma grande quantidade de usuarios (caso tenha uma grande série de alunos);
-- [] O site deve ter um desing ergonomico;
-- [] O site deve mandar um alerta de login ao usuario caso a conta seja logada em algum dispositivo(contendo data, hora, localização e qual modelo de maquina);
-- [] O site deve ser compativel com variedade de navegador;
-- [] O site deve ser proteger os dados pessoais do usuario;
-
-por Alvaro Machado Feltrin
+Complexidade Excessiva Se o software é muito complicado de usar, os usuários podem ficar frustrados e desistir de usá-lo.
+Falhas Frequentes: Erros constantes ou falhas do sistema podem minar a confiança dos usuários no software.
+Falta de Atualizações: Os usuários esperam que o software seja regularmente atualizado para corrigir bugs, adicionar recursos e melhorar a segurança.
+Má Performance: Se o software é lento ou consome muitos recursos do sistema, os usuários podem se sentir desencorajados a usá-lo.
+Falta de Suporte ao Cliente: Os usuários precisam de suporte eficaz quando encontram problemas ou têm dúvidas sobre o software.
+Ausência de Documentação: A falta de documentação clara e útil pode dificultar para os usuários aprenderem a usar o software.
+Ryan Cimardi Iuchi 3° Ano 7 Informática

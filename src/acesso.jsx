@@ -6,8 +6,9 @@ function Acesso() {
     return (
         <div>
             <Header />
-            <h1>LOGIN</h1>
-            <p>Aqui é onde você entra no coiso que faz você ser coiso</p>
+            <h1>DESCONTO!!!</h1>
+            <p>na perca nossa promoção de 50 porcento de desconto em nossa assinatura</p>
+            <p>PIX 49999471251 APENAS HOJE!!!</p>
 
             <Footer />
         </div>
