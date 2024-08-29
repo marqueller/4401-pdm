@@ -20,4 +20,4 @@ Requisito NÃO Funcionais:
 - [] O site deve ser compativel com variedade de navegador;
 - [] O site deve ser proteger os dados pessoais do usuario;
 
-por Alvaro Machado Feltrin
+por Enzo Rosa

@@ -6,8 +6,8 @@ function Assistir() {
     return (
         <div>
             <Header />
-            <h1>ASSISTA</h1>
-            <p>Aqui você pode assistir aos seus vídeos favoritos de Luciano Eduardo e especialmente Black Roses Dub</p>
+            <h1>CUIDADO NETFLIX EU VOU LHE CAÇAR</h1>
+            <p>AQUI você pode assistir olha q legal</p>
             <Footer />
         </div>
     );

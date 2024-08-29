@@ -6,8 +6,8 @@ function Acesso() {
     return (
         <div>
             <Header />
-            <h1>LOGIN</h1>
-            <p>Aqui é onde você entra no coiso que faz você ser coiso</p>
+            <h1>Login</h1>
+            <p>se você entrar no nosso serviço você pode assistir a temporada 5 de o mundo sombrio de sabrina</p>
 
             <Footer />
         </div>

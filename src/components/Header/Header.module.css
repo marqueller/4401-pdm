@@ -1,7 +1,7 @@
 .header {
 
     background-color: black;
-    border-bottom: 2px solid #FF3A6F;
+    border-bottom: 2px solid #ff00bf;
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,7 +14,7 @@
 
 .header span {
     font-size: 2rem;
-    color: #FF3A6F;
+    color: #ff00bf;
     font-weight: 500;
 }
 

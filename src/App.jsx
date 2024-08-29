@@ -5,8 +5,8 @@ function App() {
   return (
     <>
       <Header />
-      <h1>OLÁ BUDEGA!!!!</h1>
-      <p>apredendo a fazer react com o Raposito</p>
+      <h1>ohio sekai</h1>
+      <p>aq e o cabeçalho saca?</p>
       <Footer />
     </>
   )
