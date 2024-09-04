@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 function Footer() {
     return (
         <footer className={styles.footer}>
-            <h2>CedupFlix &copy; Desenvolvido por Ryan segue nós lá ryanzin.049 </h2>
+            <h2>CedupFlix &copy; Desenvolvido por Alessandro </h2>
         </footer>
     );
 }
