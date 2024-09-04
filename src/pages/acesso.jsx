@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-function acesso() {
+function Acesso() {
     return (
         <div>
             <Header />
-            <h1>Login</h1>
+            <h1>LOGIN</h1>
             <p>Aqui é onde você entra no coiso que faz você ser coiso</p>
 
             <Footer />
@@ -15,4 +15,4 @@ function acesso() {
 
 }
 
-export default acesso;
+export default Acesso;
