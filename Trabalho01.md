@@ -1,4 +1,4 @@
-<!-- Funcionam:
+Funcionam:
 
 Intuitividade: Um software intuitivo é fácil de aprender e usar. Os usuários não devem precisar de um extenso manual para compreender como usá-lo.
 Confiabilidade: Os usuários esperam que o software funcione consistentemente sem falhas ou erros frequentes.
@@ -14,4 +14,4 @@ Falta de Atualizações: Os usuários esperam que o software seja regularmente a
 Má Performance: Se o software é lento ou consome muitos recursos do sistema, os usuários podem se sentir desencorajados a usá-lo.
 Falta de Suporte ao Cliente: Os usuários precisam de suporte eficaz quando encontram problemas ou têm dúvidas sobre o software.
 Ausência de Documentação: A falta de documentação clara e útil pode dificultar para os usuários aprenderem a usar o software.
-Vitória Correa da Costa 3° Ano 7 Informática -->
+Vitória Correa da Costa 3° Ano 7 Informática

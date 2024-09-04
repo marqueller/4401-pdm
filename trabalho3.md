@@ -1,3 +1,5 @@
+Vitória Correa da Costa 3°07
+
 
 <!-- 
 **JavaScript** é uma linguagem de programação que é interpretada e usada para desenvolver sites dinâmicos e interativos. É uma linguagem de tipagem dinâmica, o que significa que você não precisa definir o tipo das variáveis explicitamente.
@@ -37,4 +39,3 @@ Neste exemplo, a função `greet` é declarada com tipos explícitos. O parâmet
 - **Compilação**: TypeScript precisa ser compilado para JavaScript, pois navegadores e ambientes de execução não entendem TypeScript diretamente.
 // -->
 
-Vitória Correa da Costa 3°07
