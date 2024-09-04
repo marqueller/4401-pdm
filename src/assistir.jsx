@@ -6,8 +6,8 @@ function Assistir() {
     return (
         <div>
             <Header />
-            <h1>Rumo ao Game o Começo, Fim ou um Recomeço</h1>
-            <p>Venha conosco em nossas grandes gameplays de entrega</p>
+            <h1>Iuri Namorado d Marina </h1>
+            <p>iuri ama jogar nas aulas </p>
             <Footer />
         </div>
     );
