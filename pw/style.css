@@ -1,0 +1,18 @@
+#elemento1{
+    background-color: lightskyblue ;
+    padding: 200px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: black;
+    transform: translate(1%,-50%);
+    animation: mover 2s infinite alternate;
+}
+@keyframes mover {
+    from{
+        transform: translate(-10%, -5%) rotate(0deg) rotate(0deg);
+
+    }
+    to{
+        transform: translate(-5%,-5%)rotate(360deg);
+    }
+}
