@@ -1,13 +1,13 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-function App(){
+function App() {
   return (
     <>
-    <Header/>
-      <h1>Informática</h1>
-      <p>2021-2024 | Os manos de Informática</p>
-      <Footer/>
+      <Header />
+      <h1>Ceduppers de plantão</h1>
+      <p>aqui só os manos de info dentro</p>
+      <Footer />
     </>
   )
 }

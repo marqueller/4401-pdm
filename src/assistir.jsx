@@ -7,7 +7,8 @@ function Assistir() {
         <div>
             <Header />
             <h1>Assista</h1>
-            <p>Aqui você pode assistir aos seus vídeos favoritos de Barbie</p>
+            <p>Aqui você pode assistir aos seus vídeos de minecraft com rap
+                do minecraft e truco online do minecraft além de diverssos outros jogos como braw stars   </p>
             <Footer />
         </div>
     );
