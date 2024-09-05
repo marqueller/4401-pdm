@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   {
     path: '/assistir',
     element: <Assistir />
-  },
+  }, 
   {
     path: '/acesso',
     element: <Acesso />

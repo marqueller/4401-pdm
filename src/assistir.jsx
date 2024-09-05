@@ -13,4 +13,4 @@ function Assistir() {
     );
 }
 
-export default Assistir;
+export default Assistir; 
