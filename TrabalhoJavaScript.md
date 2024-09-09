@@ -1,71 +1,79 @@
 CEDUP Renato Ramos Da Silva 
-Nome:Alvaro Machado Feltrin
+Nome:André Gusmão Thomaz DA Silva
 Turma:3º7
 
-JavaScript
 
-JavaScript é uma linguagem de programação amplamente usada para criar conteúdo interativo e dinâmico em páginas web. É um dos três pilares da web, junto com HTML e CSS.
 
-Características:
+ JavaScript: JavaScript é uma linguagem de programação amplamente usada para criar interatividade em websites. Originalmente desenvolvido para rodar em navegadores web, ele permite adicionar funcionalidades dinâmicas, como animações, validações de formulários e interações com o usuário.
 
-- Interpretação e Execução:** JavaScript é executado no navegador do cliente, o que significa que os scripts são interpretados e executados diretamente pelo navegador, sem necessidade de compilação.
-- Linguagem de Programação Dinâmica:** JavaScript é uma linguagem de tipagem dinâmica e fraca. Isso significa que você não precisa declarar o tipo de uma variável explicitamente, e o tipo pode mudar durante a execução.
-- Assíncrono e Orientado a Eventos:** Suporta programação assíncrona através de callbacks, Promises e async/await. É muito usado para manipulação de eventos como cliques e entradas do usuário.
-- Versatilidade:** Pode ser usado tanto no lado do cliente (navegador) quanto no lado do servidor (com Node.js).
+ Principais características do JavaScript:
 
-Principais Características:
+Interatividade: Permite que páginas web respondam a ações do usuário, como cliques e preenchimento de formulários.
+Manipulação do DOM: Facilita a alteração de elementos HTML e a atualização de estilos e conteúdo da página.
+Assíncrono: Suporta operações assíncronas, como requisições de rede e temporizadores, permitindo uma experiência mais fluida para o usuário.
+Versatilidade: Pode ser usado tanto no navegador quanto no servidor, e é compatível com uma ampla gama de frameworks e bibliotecas
 
-- Funções de Ordem Superior:** Funções podem ser passadas como argumentos, retornadas de outras funções, etc.
-- Prototype-based Inheritance:** Em vez de classes, JavaScript usa protótipos para herança de objetos.
-- ECMAScript:** JavaScript é baseado em especificações ECMAScript, e novas versões são lançadas periodicamente com melhorias e novas funcionalidades.
+Código em Java Script:
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Simples de JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #message {
+            font-size: 1.2em;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo ao Meu Site!</h1>
+    <p id="message">Clique no botão para ver uma mensagem.</p>
+    <button onclick="showMessage()">Clique Aqui</button>
 
-TypeScript
+    <script>
+        function showMessage() {
+            // Altera o conteúdo do parágrafo com o id "message"
+            document.getElementById('message').textContent = 'Olá! Você clicou no botão!';
+        }
+    </script>
+</body>
+</html> -->
 
-TypeScript é um superset de JavaScript desenvolvido pela Microsoft. Ele adiciona tipos estáticos e outras funcionalidades ao JavaScript, visando melhorar a produtividade e a manutenção de código em projetos grandes.
+Typescript:  TypeScript é uma linguagem de programação desenvolvida pela Microsoft que é um superset de JavaScript. Isso significa que todo código JavaScript válido também é código TypeScript válido, mas TypeScript adiciona recursos adicionais para melhorar a experiência de desenvolvimento.
 
-Características:
+Principais características do TypeScript:
+Tipagem Estática:
 
-- Tipagem Estática:** TypeScript permite a declaração de tipos para variáveis, parâmetros e retornos de funções. Isso ajuda a detectar erros em tempo de compilação em vez de em tempo de execução.
-- Compilação: TypeScript é compilado para JavaScript. O código TypeScript é transpilado para JavaScript padrão, que pode ser executado em qualquer navegador ou ambiente que suporte JavaScript.
-- Suporte a Classes e Interfaces:** TypeScript oferece suporte a conceitos de programação orientada a objetos como classes, interfaces e herança, com uma sintaxe mais familiar para desenvolvedores que vêm de outras linguagens orientadas a objetos.
-- Ferramentas de Desenvolvimento:** Melhora a experiência do desenvolvedor com autocompletar, verificação de tipo e refatoração mais segura.
+Tipos: TypeScript permite a definição explícita de tipos de variáveis, funções e objetos. Isso ajuda a detectar erros em tempo de desenvolvimento e facilita a manutenção do código.
+Inferência de Tipos: Mesmo que você não defina tipos explicitamente, o TypeScript pode inferir tipos com base no valor inicial.
+Desenvolvimento mais Seguro:
 
-Principais Características:
+Compilação: O código TypeScript é transpilado (ou convertido) para JavaScript. Isso significa que você pode usar recursos avançados de TypeScript e ainda executar o código em qualquer ambiente que suporte JavaScript.
+Erros em Tempo de Desenvolvimento: A verificação de tipos e a análise estática ajudam a identificar erros antes que o código seja executado.
+Melhor Ferramenta e Suporte a IDE:
 
-- Inferência de Tipos:** Mesmo se você não declarar explicitamente os tipos, o TypeScript tenta inferir os tipos com base no contexto.
-- Modularidade: Suporta módulos ES6 e outros formatos de módulos, facilitando a organização e o encapsulamento de código.
-- Anotações de Tipo:** Permite especificar tipos para variáveis, funções, objetos e outros, ajudando a prevenir erros e facilitando a compreensão do código.
+IntelliSense: Ferramentas de desenvolvimento, como Visual Studio Code, oferecem suporte melhorado com sugestões de código, autocompletar e refatoração com base nas informações de tipo.
 
-Comparação
+Código simples:
 
-- Tipos de Dados:** JavaScript é dinâmico e flexível, mas isso pode levar a erros difíceis de rastrear. TypeScript oferece tipagem estática, o que ajuda a detectar erros antes da execução e melhora a legibilidade do código.
-- Desenvolvimento de Código:** TypeScript oferece melhores ferramentas de desenvolvimento devido à verificação de tipos e à sua compatibilidade com editores e IDEs. JavaScript é mais direto e tem uma curva de aprendizado menor para iniciantes.
-- Compatibilidade:** JavaScript é universal e executa em qualquer navegador ou ambiente que suporte ECMAScript. TypeScript, por outro lado, precisa ser compilado para JavaScript, o que adiciona uma etapa extra no processo de desenvolvimento.
-
-Por tanto JavaScript é essencial para qualquer desenvolvedor web e é uma das linguagens mais populares no mundo. TypeScript, por sua vez, é uma excelente escolha para projetos maiores e mais complexos, onde a verificação de tipos e a manutenção de código são prioridades. A escolha entre JavaScript e TypeScript pode depender da natureza do projeto e das preferências da equipe de desenvolvimento.
-
-aqui um breve código:
-
-JAVASCRIPT
-
-// soma de dois números
-function somar(a, b) {
-    return a + b;
+interface Pessoa {
+    nome: string;
+    idade: number;
 }
 
-// usando a soma
-const resultado = somar(9, 7);
-console.log("Resultado:", resultado); // Saída: Resultado: 16
-
-
-
-TYPESCRIPT
-
-//soma de dois números
-function somar(a: number, b: number): number {
-    return a + b;
+function saudacao(pessoa: Pessoa): string {
+    return `Olá, meu nome é ${pessoa.nome} e eu tenho ${pessoa.idade} anos.`;
 }
 
-// usando a soma
-const resultado: number = somar(5, 9);
-console.log("Resultado:", resultado); // Saída: Resultado: 14
+const pessoa: Pessoa = {
+    nome: 'Ana',
+    idade: 30
+};
+
+console.log(saudacao(pessoa));

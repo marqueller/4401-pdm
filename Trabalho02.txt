@@ -1,28 +1,12 @@
-#elemento1 {
-    background-color: rgb(253, 124, 242);
-    padding: 20px;
-    border-radius: 20px;
-    font-size: 30px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: navy;
-    max-width: 500px;
-    /* transform: translate(1%, -50%); */
-    /* animation: mover 2s linear infinite alternate; */
+#elemento1{ background-color: lightblue; padding: 200px; border-radius: 20px; font-size: 30px; color: navy;
+
+/* transform: translate(1%, -50%); Centraliza o objeto */
+/* animation: mover 2s linear infinite alternate; Aplica a animação */ */
 }
 
-@keyframes mover {
-    from {
-        transform: translate(-10%, -400%) rotate(0deg)
-    }
-
-    to {
-        transform: translate(-5%, -5%) rotate(360deg)
-    }
+@keyframes mover { from { transform: translate(-40%, -5%) rotate(0deg); /* Posição inicial / } to { transform: translate(-5%, -5%) rotate(360deg); / Posição final */ }
 
 }
 
-por Alvaro Machado Feltrin
+por: André Gusmão Thomaz da Silva
 
-/* se possivel assista https://youtu.be/dYjgwkGvWQ0?si=Nk_tZ5hCCzfRPg1Y */

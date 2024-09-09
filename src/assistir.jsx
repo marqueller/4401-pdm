@@ -7,7 +7,7 @@ function Assistir() {
         <div>
             <Header />
             <h1>ASSISTA</h1>
-            <p>Aqui você pode assistir aos seus vídeos favoritos de Luciano Eduardo e especialmente Black Roses Dub</p>
+            <p>Aqui você pode assistir vídeos incríveis</p>
             <Footer />
         </div>
     );

@@ -7,7 +7,7 @@ function Acesso() {
         <div>
             <Header />
             <h1>LOGIN</h1>
-            <p>Aqui é onde você entra no coiso que faz você ser coiso</p>
+            <p>Aqui é onde você faz o Login</p>
 
             <Footer />
         </div>
