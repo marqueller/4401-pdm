@@ -6,10 +6,8 @@ function Acesso() {
     return (
         <div>
             <Header />
-            <h1>DESCONTO!!!</h1>
-            <p>na perca nossa promoção de 50 porcento de desconto em nossa assinatura</p>
-            <p>PIX 49999471251 APENAS HOJE!!!</p>
-
+            <h1>ASSINATURA</h1>
+            <p>A PARTIR DE R$49,90 reais mensais</p>
             <Footer />
         </div>
     );

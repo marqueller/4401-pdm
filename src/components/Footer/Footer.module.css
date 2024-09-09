@@ -5,9 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    color: #fff;
-    border-top: 2px solid #FF3A6F;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-top: 2px solid #001aff;
     padding: 50%rem;
 }
 
