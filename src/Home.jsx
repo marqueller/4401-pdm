@@ -1,3 +1,3 @@
 export function Home() {
-    return <h1>Manos de info </h1>
+    return <h1>Info por amor </h1>
 }

@@ -5,8 +5,8 @@ function App() {
   return (
     <>
       <Header />
-      <h1>Ceduppers de plantão</h1>
-      <p>aqui só os manos de info dentro</p>
+      <h1>Ceduppers</h1>
+      <p>Sofrencia gratis aqui!</p>
       <Footer />
     </>
   )
