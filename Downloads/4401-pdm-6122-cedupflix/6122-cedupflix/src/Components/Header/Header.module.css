@@ -1,0 +1,27 @@
+.header{
+background-color: black;
+border-bottom: 2px solid red;
+position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+padding: 0.5rem;
+font-size: 1.5rem;
+align-items: center;
+justify-content: space-between;
+
+
+} 
+.header span {
+    font-size: 2rem;
+    color: red;
+    font-weight: 500;
+}
+.header nav {
+    margin-right: rem;
+}
+.header a{
+    text-decoration:none;
+    color: #fff;
+    padding-inline: 0.5rem;
+}
