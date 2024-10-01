@@ -1,20 +1,14 @@
-Cauê Rocha Maia 3º07 INF
+Lucas da Silva Jeremias 
 
-O que é a API Face ID?
-Face ID API é um sistema de reconhecimento facial desenvolvido pela Appl, introduzido com o iPhone X em 2017. É uma tecnologia de autenticação biométrica que usa um scan 3d da face do usuário para desbloquear o dispositivo, fazer comprar, e autenticar transação.
+O Face ID é uma tecnologia de reconhecimento facial usada para identificar pessoas por meio de características biométricas. Ele é comumente aplicado em dispositivos e sistemas de segurança. As APIs de Face ID permitem que desenvolvedores integrem essa tecnologia em suas soluções, proporcionando uma forma moderna e segura de autenticação.
+Modelos já utilizados:
+Alguns dos principais modelos usados em APIs de reconhecimento facial incluem:
+Eigenfaces e Fisherfaces: Baseados em PCA e LDA, respectivamente, são métodos clássicos para reconhecimento facial.
+LBPH (Local Binary Patterns Histograms): Muito usado por sua simplicidade e eficácia em diferentes condições, como variação de luz.
+CNNs (Convolutional Neural Networks): Algoritmos mais modernos, como FaceNet ou VGG-Face, que permitem uma detecção facial altamente precisa.
+Haar Cascade: Utilizado em bibliotecas como OpenCV, ainda é comum em soluções locais por sua simplicidade.
 
-Como a API do Face ID funciona?
-Aqui está uma explicaçao passo-a-passo:
-Detecção de face: O sistema de câmera TrueDepth, que incluem uma camera infravermelha, um projetor de pontos, e um flood illuminator, detecta a face do usuários.
-Mapeamento de face: O sistema cria um mapa 3d da face do usuários, usando mais de 30,000 pontos projetados na face.
-Autenticação: A API do Face ID compara o mpaa 3D com a data facial armazenada pra verificar a identidade do usuário.
+Um exemplo prático do uso do Face ID é em portarias de condomínios residenciais.
+Com o uso de uma API de Face ID, o sistema de portaria pode ser automatizado para permitir a entrada de moradores por meio do reconhecimento facial. Cada residente teria seu rosto registrado no sistema ao se mudar, e na entrada do condomínio, câmeras conectadas ao sistema de Face ID reconheceriam automaticamente o rosto da pessoa. Isso não só permite que a pessoa entre sem usar chaves ou cartões, mas também aumenta a segurança, pois o sistema só libera o acesso para rostos autorizados.
 
-Caracteristicas de segurança:
-A API do Face ID tem diversas opções para prevenir o acesso não autorizado:
-Atenção frequente: O sistema checa se o usuário está olhando ao dispositivo antes de autenticar.
-Anti-Disfarce: A API do Face Id usa diversas tecnicas, como analise de textura de pele, e detector de movimento, pra prevenir disfarces usando fotos ou mascaras.
-
-Acesso de desenvolvedor:
-A API do Face ID é disponivel para desenvolvedores integrar em seus aplicativos, permitindo usuários autenticar-se e autorizar transações utilizando Face ID. Porém, desenvolvedores não tem acesso direto a data de reconhecimento facial ou mapa facial 3D.
- 
-Em seu uso é extremamente prático em um robô auxiliador de idosos, HyunCare, onde ele reconhece a face do idoso para auxiliar o seu cuidado, além disso enviando as imagens retiradas pro aplicativo presente no celular do responsável.
+Além disso, esse sistema poderia ser integrado a um banco de dados de visitantes, permitindo que o morador pré-cadastre o rosto de seus convidados. Assim, quando o visitante chegar, a entrada seria liberada de forma automática, sem precisar da autorização manual do morador ou do porteiro.
