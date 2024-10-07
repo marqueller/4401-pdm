@@ -1,3 +1,6 @@
+Aluno: Cristian Luis Einecke Bibow Junior
+Turma: 3º7
+
 O que é API Face ID?
 A API Face ID é uma interface de programação que permite que aplicativos reconheçam e identifiquem rostos humanos usando tecnologia de reconhecimento facial. Ela usa algoritmos avançados para analisar características faciais únicas e, com isso, pode identificar ou verificar a identidade de uma pessoa.
 
