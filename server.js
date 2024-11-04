@@ -43,5 +43,5 @@ app.listen(3000)
 */
 
 /*Dados da conta MongoDB:
- - Usuário: Alexcosta8007
+ - Usuário: alexcosta8007
  - Password: Gremio.313 */
